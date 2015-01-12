@@ -8,16 +8,18 @@ prabhakarmudliyar:
   fname: Prabhakar
   lname: Mudliyar
   company: annettech
-  
+  email: prabhakar.mudliyar@annet.com
+  encrypted_password: <%= User.new.send(:password_digest, 'annet123') %>
 
 someshvyas:
   fname: Somesh
   lname: Vyas
   company: annettech
+  email: akashmudliyar@gmail.com
   
 
 vijayvish:
   fname: Vijay 
   lname: Vish
   company: polarisltd
-  
+  email: somesh.vyas@annet.com
